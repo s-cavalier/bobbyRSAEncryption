@@ -16,6 +16,6 @@
  4. Once encrypted, move **data.json**, into the decrypt folder and, if the SK matches, will return the decrypted message.
 
 
-### Footnote
+## Footnote
  - Important to note I don't know exactly how RSA is professionally and/or conventionally formatted, however the keys generated are equally as strong and usable as it uses the same arithmetic.
  - I did not completely reinvent the algorithims, rather I knew the math on paper and implented in code as made sense to me.
