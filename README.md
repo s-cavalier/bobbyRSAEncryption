@@ -1,6 +1,6 @@
 # bobbyRSAEncryption
  My own iteration of RSA encryption for my use and for fun.
- - It uses the same modulo arithemetic to create a one-way function as conventional RSA encryption, but compiled in my own way and developed entirely on my own. [^1] [^2]
+ - It uses the same modulo arithemetic to create a one-way function as conventional RSA encryption, but compiled in my own way and developed entirely on my own.
  - As of now, it only converts **string -> hex**. Technically the hex is posed as a string, but is a hexadecimal number containing the encrypted string.
  - However, any number of characters can easily and quickly be converted once keys have been generated.
 ## Usage
@@ -15,5 +15,7 @@
  3. It will return the **data.json** file back to the home directory for distribution encrypted with the given PK in the **encrypt** folder.
  4. Once encrypted, move **data.json**, into the decrypt folder and, if the SK matches, will return the decrypted message.
 
- [^1] Important to note I don't know exactly how RSA is professionally and/or conventionally formatted, however the keys generated are equally as strong and usable as it uses the same arithmetic.
- [^2] I did not completely reinvent the algorithims, rather I knew the math on paper and implented in code as made sense to me.
+
+### Footnote
+ - Important to note I don't know exactly how RSA is professionally and/or conventionally formatted, however the keys generated are equally as strong and usable as it uses the same arithmetic.
+ - I did not completely reinvent the algorithims, rather I knew the math on paper and implented in code as made sense to me.
