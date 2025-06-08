@@ -1,5 +1,6 @@
 # bobbyRSAEncryption
- My own iteration of RSA encryption for my use and for fun.
+ My own iteration of RSA encryption for my use and for fun. <br>
+ At this point, this codebase is pretty old as it was one of my "first" projects. Might come back to it later to build a more solid I/O and class-based architecture.
  - It uses the same modulo arithemetic to create a one-way function as conventional RSA encryption, but compiled in my own way and developed entirely on my own.
  - As of now, it only converts **string -> hex**. Technically the hex is posed as a string, but is a hexadecimal number containing the encrypted string.
  - However, any number of characters can easily and quickly be converted once keys have been generated.
